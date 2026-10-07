@@ -11,7 +11,7 @@ Each skill is a single Markdown file (occasionally with a small companion script
 | [`humanizer`](skills/humanizer/SKILL.md) | Detects and removes signs of AI-generated writing; adds the positive qualities of genuinely human writing. MIT-licensed. |
 | [`headroom`](skills/headroom/SKILL.md) | Reference for using the external `headroom-ai` token-compression tool (proxy/MCP/wrap) to cut LLM token cost 60-95%. |
 | [`dated-archive`](skills/dated-archive/SKILL.md) | A dated nested-folder convention for filing generated reports/artifacts consistently instead of dumping loose files. |
-| [`durable-checkpoint`](skills/aries-checkpoint/SKILL.md) | A pattern for giving an agent persistent memory across sessions/machines via an external "brain" folder + checkpoint script. |
+| [`durable-checkpoint`](skills/durable-checkpoint/SKILL.md) | An append-only archive of session reasoning in an external "brain" folder, plus the writer script and the always-included mirror that makes a new session actually load it. |
 | [`loop-engineering`](skills/loop-engineering/SKILL.md) | Design and operate autonomous, recurring agent loops (scheduled triage, PR babysitting, CI sweeps) instead of one-off prompts. Distilled from [cobusgreyling/loop-engineering](https://github.com/cobusgreyling/loop-engineering). |
 | [`librarian`](skills/librarian/SKILL.md) | Pattern for maintaining a personal/team knowledge-and-assets library: triage an inbox, classify, tag, thumbnail, keep a catalog in sync. References small companion scripts you'll write for your own setup. |
 | [`skill-upstream-sync`](skills/skill-upstream-sync/SKILL.md) | A small script (`scan.sh`) that reports (never auto-applies) which installed skills' upstream repos have moved since you last checked. |
